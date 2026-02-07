@@ -7,7 +7,6 @@ An intelligent intruder detection system for farmland that uses Faster R-CNN for
 - Face recognition using FaceNet (InceptionResnetV1)
 - Identification of known vs unknown persons
 - Animal detection (cat, dog, bird)
-- Automatic alert image saving
 - Performance evaluation using confusion matrix and confidence analysis
   
 ## Model Architecture
@@ -30,13 +29,12 @@ dataset/
 2. If person detected → extract face
 3. Generate face embedding
 4. Compare with gallery embeddings
-5. Trigger alert if unknown person or animal is detected
-6. Save alert images and evaluate performance
+5. Trigger alert if unknown person is detected
+6. Evaluate performance
 
 ## Evaluation
 - Confusion Matrix
 - Confidence Score Visualization
-- Alert-based qualitative analysis
 
 ## Technologies Used
 - Python
