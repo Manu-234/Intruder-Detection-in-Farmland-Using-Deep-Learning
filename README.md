@@ -17,11 +17,13 @@ An intelligent intruder detection system for farmland that uses Faster R-CNN for
 - **Similarity Metric:** Cosine similarity on L2-normalized embeddings
 
 ## Dataset Structure
+```
 dataset/
-│── gallery/
-│ ├── Person1/
-│ ├── Person2/
-│── test_images/
+├── gallery/
+│   ├── Person1/
+│   ├── Person2/
+└── test_images/
+```
 
 ## Workflow
 1. Detect objects in the image
